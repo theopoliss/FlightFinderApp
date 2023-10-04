@@ -1,0 +1,39 @@
+graph AirportNetwork {
+
+	chicago -- amsterdam [cost=1000];
+	chicago -- newYork [cost=500];
+	newYork -- amsterdam [cost=1200];
+	chicago -- liberia [cost=950];
+	liberia -- amsterdam [cost=1400];
+	newYork -- liberia [cost=1000];
+	sanFrancisco -- newYork [cost=780];
+	sanFrancisco -- amsterdam [cost=1230];
+	sanFrancisco -- liberia [cost=1300];
+	sanFrancisco -- chicago [cost=650];
+	singapore -- chicago [cost=2400];
+	singapore -- newYork [cost=2500];
+	singapore -- amsterdam [cost=1300];
+	singapore -- liberia [cost=2900];
+	singapore -- sanFrancisco [cost=3100];
+	tokyo -- chicago [cost=2090];
+	singapore -- tokyo [cost=890];
+	tokyo -- amsterdam [cost=780];
+	tokyo -- newYork [cost=3060];
+	tokyo -- liberia [cost=4000];
+	tokyo -- sanFrancisco [cost=3500];
+
+
+
+	chicago [label="Chicago, USA"];
+	newYork [label="New York, USA"];
+	amsterdam [label="Amsterdam, Netherlands"];
+	liberia [label="Liberia, Costa Rica"];
+	sanFrancisco [label="San Francisco, USA"];
+	singapore [label="Singapore, Singapore"];
+	tokyo [label="Tokyo, Japan"];
+
+
+
+
+
+}
